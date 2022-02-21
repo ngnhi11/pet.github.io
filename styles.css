@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Georama:wght@200&family=Merriweather:wght@300&family=Playfair+Display:ital@0;1&display=swap');
+
+body {
+    background-image: url(https://chephamvisinh.vn/wp-content/uploads/2020/07/Cach-khu-mui-hoi-cho-meo-hieu-qua-nhat.jpg);
+    font-family: 'Georama', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Playfair Display', serif;
+}
+a {
+    text-decoration: none;
+}
+.container {
+
+    font-size: 20px;
+    width: 1300px;
+    margin: auto;
+
+}
+.container > header{
+    height: 350px;
+    background-image: url(images/banner.jpg);
+    position: relative;
+    background-size: 100% 100%;
+  
+}
+.container > header > nav {
+    background-color: rgb(197, 195, 194);
+    height: 45px;
+    line-height: 45px;
+    width: 1000px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    text-align: right;
+    opacity: 0.8;
+    border-radius: 30px;
+
+}
+.container > header > nav >ul {
+    margin: 0;
+
+}
+.container > header > nav >ul >li {
+    display: inline-block;
+}
+.container > header > nav >ul >li >a {
+    color:rgb(29, 29, 27);
+    margin-right: 20px;
+    
+}
+.container > header > nav >ul >li >a:hover {
+    color:rgb(126, 123, 123);
+    font-style: oblique;
+}
+.container > header >a {
+    font-size: 50px;
+    position: absolute;
+    top: 80px;
+    left: 70px;
+    color:darkred;
+}
+.container > footer {
+    background-color:rgba(153, 51, 127, 0.123);
+    height: 400px;
+    clear: both;
+    text-align: center;
+    position: relative; top: 10px;
+
+
+}
+main {
+    display: flex;
+    min-height: 600px;
+}
+main > article {
+    width: 890px;
+    background-color:rgb(150, 151, 150);
+    margin-right: 10px;
+   
+}
+main > aside {
+    width: 400px;
+    background-color:rgb(248, 45, 9);
+    
+}
+img {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 5px;
+}
+.container > main > aside > div > p {
+    text-align: center;
+}
+footer > p {
+    text-align: center;
+    font-size: 22px;
+    color: rgb(25, 26, 23);
+    
+}
+ header > form {
+    padding-top: 280px;
+    float: right;
+}

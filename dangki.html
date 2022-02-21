@@ -1,0 +1,97 @@
+<html>
+    <header>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Georama:wght@200&family=Merriweather:wght@300&family=Playfair+Display:ital@0;1&display=swap');
+
+            body {
+                background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCPgQ3kRfpSAVLqBIwovCi0uRPghdQVIZ3YlkXnl2zd8VOYCu-cHCVw6F0KTzWHvHtr8E&usqp=CAU);
+                }
+            form {
+                background-color:rgb(229, 235, 235);
+                width: 700px;
+                font-size: 22px;
+                color:rgb(29, 15, 5);
+                margin: auto;
+                margin-top: 50px;
+                border-radius: 50px;
+            }
+            label {
+                width: 150px;
+                display: inline-block;
+                margin-left: 20px;
+            }
+            .txt {
+                color:rgb(100, 53, 45);
+                width: 400px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }
+            .abc {
+                background-color:rgb(202, 189, 202);
+                padding:10px;
+                font-size: 20px;
+            }
+            h4 {
+                text-align: center;
+                padding-top: 20px;
+            }
+           
+        </style>
+    </header>
+    <body>
+        <form id="formDK">
+            <h4>ĐĂNG KÝ THÀNH VIÊN</h4>
+            <p>
+                <label for="un">Tên đăng nhập</label>
+                <input type="text" class="txt" placeholder="Nhập từ 4 đến 20 ký tự" name="un" id="un">
+            </p>
+            <p>
+                <label for="pw">Mật khẩu</label>
+                <input type="password" class="txt" placeholder="Nhập từ 8 đến 20 ký tự" name="pw" id="pw">
+            </p>
+            <p>
+                <label for="email"> Email</label>
+                <input type="email" class="txt" placeholder="Nhập địa chỉ email" name="email" id="email">
+            </p>
+            <p>
+                <label for="Số điện thoại"> Số điện thoại</label>
+                <input type="Số điện thoại" class="txt" placeholder="+84" name="Số điện thoại" id="sdt">
+            </p>
+            <p>
+                <label>Giới tính</label>
+                <input type="radio" value="0" name="gioitinh" checked> Nữ
+                <input type="radio" value="1" name="gioitinh"> Nam
+            </p>
+            <p>
+                <label for="ha">Hình ảnh</label>
+                <input type="file" class="txt" placeholder="Chọn hình ảnh của bạn" name="ha" id="ha">
+            </p>
+            <p>
+                <label for="qt">Quốc Tịch</label>
+                <select name="qt" id="qt" class="txt">
+                    <option value="0"> Chọn quốc tịch</option>
+                    <option value="1"> Việt Nam</option>
+                    <option value="2"> Mỹ</option>
+                    <option value="3"> Trung Quốc</option>
+                    <option value="4"> Nhật Bản</option>
+                    <option value="0">Khác</option>
+               </select>
+            </p>
+            <p>
+                <label>Sở thích</label> <input type="checkbox" name="st1" value="0" class="xyz"> Du lịch
+                <label></label> <input type="checkbox" name="st2" value="1" class="xyz"> Nghe nhạc
+                <label></label> <input type="checkbox" name="st3" value="2" class="xyz"> Đá banh
+                <label></label> <input type="checkbox" name="st4" value="3" class="xyz"> Chơi game
+            </p>
+            <p>
+                <label>Ghi chú</label>
+                <textarea name="ghichu" rows="4" class="txt"></textarea>
+            </p>
+            <p>
+                <label></label>
+                <button type="submit" class="abc">Đăng ký</button>
+                <button type="reset"class="abc">Xóa</button>
+            </p>
+        </form>
+    </body>
+</html>
